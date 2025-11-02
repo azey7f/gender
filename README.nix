@@ -26,12 +26,13 @@
   ];
   location.country = "REDACTED FOR PRIVACY";
 
-  contacts = {
+  contact = {
     mailto = "me@azey.net";
     codeberg = "azey";
     github = "azey7f";
     # TODO: matrix, fedi
   };
+  ref = "azey.net"; # NOTE: IPv6-only, v4.azey.net if your ISP is still stuck in the 90s
 
   keys = [
     {
