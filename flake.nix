@@ -1,1 +1,1 @@
-{outputs = {...}: import ./README;}
+{outputs = {...}: import ./README.nix;}
