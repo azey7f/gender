@@ -1,1 +1,7 @@
-{outputs = {...}: import ./README.nix;}
+{
+  outputs = {...}:
+    (import ./README.nix)
+    // {
+      interests = import ./interests.nix;
+    };
+}
