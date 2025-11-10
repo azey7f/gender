@@ -54,11 +54,7 @@
         ingress = "Envoy Gateway";
         storage = "OpenEBS"; # TODO: rook
         monitoring = "kube-prometheus-stack";
-
-        network = {
-          cni = "Cilium";
-          mutualAuth = "SPIFFE";
-        };
+        network.cni = "Calico";
 
         images.updates = "renovate-bot";
       };
